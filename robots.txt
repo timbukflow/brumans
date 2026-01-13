@@ -1,0 +1,11 @@
+# Brumans - robots.txt
+# https://brumans.ch/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://brumans.ch/sitemap.xml
+
+# Disallow admin/private areas (if any)
+Disallow: /partials/

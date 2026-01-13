@@ -1,0 +1,21 @@
+# Brumans - Apache Configuration
+# ================================
+
+RewriteEngine On
+
+# Canonicalize .php URLs to extensionless variants
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
+RewriteCond %1 !^404$ [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# Serve extensionless URLs by mapping to existing PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+# Custom 404 page
+ErrorDocument 404 /404.php
+
+# Disable directory listing
+Options -Indexes

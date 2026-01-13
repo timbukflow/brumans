@@ -1,0 +1,20 @@
+# Environment
+.env
+.env.php
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Sensitive files (keep .htaccess in repo for this project)
+form-config.php
