@@ -32,18 +32,19 @@
                 </a>
                 <div class="header-buttons">
                     <a href="/#kontakt" class="btn btn-primary">Anfrage</a>
+                    <button type="button" class="btn btn-secondary" id="menu-toggle" aria-label="Menu öffnen">Menu</button>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="legal-page">
             <div class="container">
-                <h1 style="font-size: var(--font-size-xxl); margin-bottom: var(--spacing-lg);">Impressum</h1>
+                <h1 class="legal-title">Impressum</h1>
 
-                <div style="max-width: 800px; font-size: var(--font-size-sm); line-height: 1.8;">
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Kontaktadresse</h2>
+                <div class="legal-content">
+                    <h2>Kontaktadresse</h2>
                     <p>
                         Brumans Real Estate Group GmbH<br>
                         Landhausstrasse 1<br>
@@ -55,16 +56,16 @@
                         Telefon: <a href="tel:+41793140989">+41 79 314 09 89</a>
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Vertretungsberechtigte Person</h2>
+                    <h2>Vertretungsberechtigte Person</h2>
                     <p>Sebastian Luli, Geschäftsführer</p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Handelsregistereintrag</h2>
+                    <h2>Handelsregistereintrag</h2>
                     <p>
                         Eingetragener Firmenname: Brumans Real Estate Group GmbH<br>
                         Handelsregister: Kanton Appenzell Ausserrhoden
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Haftungsausschluss</h2>
+                    <h2>Haftungsausschluss</h2>
                     <p>
                         Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
                     </p>
@@ -72,7 +73,7 @@
                         Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Urheberrechte</h2>
+                    <h2>Urheberrechte</h2>
                     <p>
                         Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich der Firma Brumans Real Estate Group GmbH oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.
                     </p>

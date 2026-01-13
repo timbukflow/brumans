@@ -32,18 +32,19 @@
                 </a>
                 <div class="header-buttons">
                     <a href="/#kontakt" class="btn btn-primary">Anfrage</a>
+                    <button type="button" class="btn btn-secondary" id="menu-toggle" aria-label="Menu öffnen">Menu</button>
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="legal-page">
             <div class="container">
-                <h1 style="font-size: var(--font-size-xxl); margin-bottom: var(--spacing-lg);">Datenschutzerklärung</h1>
+                <h1 class="legal-title">Datenschutzerklärung</h1>
 
-                <div style="max-width: 800px; font-size: var(--font-size-sm); line-height: 1.8;">
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Verantwortliche Stelle</h2>
+                <div class="legal-content">
+                    <h2>Verantwortliche Stelle</h2>
                     <p>
                         Brumans Real Estate Group GmbH<br>
                         Landhausstrasse 1<br>
@@ -52,7 +53,7 @@
                         E-Mail: <a href="mailto:info@brumans.ch">info@brumans.ch</a>
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Allgemeines</h2>
+                    <h2>Allgemeines</h2>
                     <p>
                         Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und die datenschutzrechtlichen Bestimmungen des Bundes hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Wir halten diese Bestimmungen ein.
                     </p>
@@ -60,7 +61,7 @@
                         In enger Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Bearbeitung von Personendaten</h2>
+                    <h2>Bearbeitung von Personendaten</h2>
                     <p>
                         Personendaten sind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Dazu gehören etwa der Name, die Adresse, die Telefonnummer oder die E-Mail-Adresse.
                     </p>
@@ -68,16 +69,16 @@
                         Wir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im Übrigen bearbeiten wir – soweit und sofern anwendbar – Personendaten gemäss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Kontaktaufnahme</h2>
+                    <h2>Kontaktaufnahme</h2>
                     <p>
                         Wenn Sie uns per E-Mail oder Telefon kontaktieren, werden die von Ihnen mitgeteilten Daten (wie Name, E-Mail-Adresse, Telefonnummer und Ihre Nachricht) von uns gespeichert, um Ihr Anliegen zu bearbeiten. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Server-Logfiles</h2>
+                    <h2>Server-Logfiles</h2>
                     <p>
                         Der Provider dieser Website erhebt und speichert automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser automatisch an uns übermittelt. Dies sind:
                     </p>
-                    <ul style="margin-left: var(--spacing-lg);">
+                    <ul>
                         <li>Browsertyp und Browserversion</li>
                         <li>verwendetes Betriebssystem</li>
                         <li>Referrer URL</li>
@@ -89,7 +90,7 @@
                         Diese Daten werden nicht mit anderen Datenquellen zusammengeführt.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Ihre Rechte</h2>
+                    <h2>Ihre Rechte</h2>
                     <p>
                         Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.
                     </p>
@@ -97,12 +98,12 @@
                         Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
                     </p>
 
-                    <h2 style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0 var(--spacing-sm);">Änderungen</h2>
+                    <h2>Änderungen</h2>
                     <p>
                         Wir können diese Datenschutzerklärung jederzeit ohne Vorankündigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung.
                     </p>
 
-                    <p style="margin-top: var(--spacing-xl); color: var(--color-text-light);">
+                    <p class="legal-meta">
                         Stand: Januar 2025
                     </p>
                 </div>
