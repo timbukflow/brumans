@@ -163,6 +163,14 @@
     </script>
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splash-screen">
+        <div class="splash-content">
+            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
+            <p class="splash-text">Brumans Real Estate Group GmbH</p>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
@@ -253,24 +261,24 @@
             <div class="container">
                 <div class="references-header reveal-item">
                     <p class="references-label">Brumans Referenzen</p>
-                    <h2 class="references-title">Diese Referenzen geben Einblick in Liegenschaften, die wir langfristig betreuen und nachhaltig im Wert erhalten.</h2>
+                    <h2 class="references-title">Dies ist ein Auszug aus unseren Referenzen mit Einblick in Liegenschaften, die wir langfristig betreuen und nachhaltig im Wert erhalten.</h2>
                 </div>
                 <div class="references-grid">
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-stgallen.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="663" height="497">
-                        <p class="reference-label">St. Gallen | Hauswartung</p>
-                    </div>
-                    <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-engelburg.jpg" alt="Brumans Referenz Engelburg - Hauswartung und Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">Engelburg | Hauswartung, Sanierungsarbeiten</p>
-                    </div>
-                    <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-goldach.jpg" alt="Brumans Referenz Goldach - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <img src="assets/images/brumans-referenzen-goldach-hauswartung-05.jpg" alt="Brumans Referenz Goldach - Professionelle Hauswartung" class="reference-image" width="663" height="497">
                         <p class="reference-label">Goldach | Hauswartung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-stgallen-2.jpg" alt="Brumans Referenz St. Gallen - Hauswartung und Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">St. Gallen | Hauswartung, Sanierungsarbeiten</p>
+                        <img src="assets/images/brumans-referenzen-romanshorn-hauswartung-03.jpg" alt="Brumans Referenz Romanshorn - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">Romanshorn | Hauswartung</p>
+                    </div>
+                    <div class="reference-item reveal-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-02.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Sanierung</p>
+                    </div>
+                    <div class="reference-item reveal-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-03.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Sanierung</p>
                     </div>
                 </div>
             </div>

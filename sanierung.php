@@ -98,6 +98,14 @@
     </script>
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splash-screen">
+        <div class="splash-content">
+            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
+            <p class="splash-text">Brumans Real Estate Group GmbH</p>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
@@ -121,7 +129,7 @@
                 <div class="hero-image-wrapper">
                     <img src="assets/images/hero-sanierung.jpg" alt="Brumans Sanierung - Professionelle Renovationen und Innenausbau in der Ostschweiz" class="hero-image" width="1388" height="926">
                     <h1 class="hero-textbox hero-textbox--narrow">
-                        Sanierung, Renovation und Innenausbau in der Ostschweiz zuverlässig umgesetzt.
+                        Kleine Sanierungen und Renovationen in der Ostschweiz zuverlässig umgesetzt.
                     </h1>
                 </div>
             </div>
@@ -204,24 +212,24 @@
             <div class="container">
                 <div class="references-header reveal-item">
                     <p class="references-label">Referenzen</p>
-                    <h2 class="references-title">Diese Referenzen geben Einblick in Liegenschaften, die wir langfristig betreuen und nachhaltig im Wert erhalten.</h2>
+                    <h2 class="references-title">Dies ist ein Auszug aus unseren Referenzen mit Einblick in Liegenschaften, die wir langfristig betreuen und nachhaltig im Wert erhalten.</h2>
                 </div>
                 <div class="references-grid">
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-stgallen.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="663" height="497">
-                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-02.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="663" height="497">
+                        <p class="reference-label">St. Gallen | Sanierung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-engelburg.jpg" alt="Brumans Referenz Engelburg - Hauswartung und Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">Engelburg | Hauswartung, Sanierungsarbeiten</p>
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-03.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Sanierung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-goldach.jpg" alt="Brumans Referenz Goldach - Professionelle Hauswartung" class="reference-image" width="662" height="497">
-                        <p class="reference-label">Goldach | Hauswartung</p>
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-04.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Sanierung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/referenz-stgallen-2.jpg" alt="Brumans Referenz St. Gallen - Hauswartung und Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">St. Gallen | Hauswartung, Sanierungsarbeiten</p>
+                        <img src="assets/images/brumans-referenz-engelburg-hauswartung-sanierungsarbeiten-01.jpg" alt="Brumans Referenz Engelburg - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <p class="reference-label">Engelburg | Sanierung</p>
                     </div>
                 </div>
             </div>

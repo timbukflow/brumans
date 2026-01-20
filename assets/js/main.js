@@ -10,6 +10,24 @@
     const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
     const menuClose = document.getElementById('menu-close');
+    const splashScreen = document.getElementById('splash-screen');
+
+    /**
+     * Splash Screen
+     */
+    function initSplashScreen() {
+        if (splashScreen) {
+            setTimeout(function() {
+                splashScreen.classList.add('fade-out');
+                setTimeout(function() {
+                    splashScreen.style.display = 'none';
+                }, 500);
+            }, 1500);
+        }
+    }
+
+    // Initialize splash screen immediately
+    initSplashScreen();
 
     /**
      * Header scroll effect

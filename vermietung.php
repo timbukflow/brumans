@@ -96,6 +96,14 @@
     </script>
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splash-screen">
+        <div class="splash-content">
+            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
+            <p class="splash-text">Brumans Real Estate Group GmbH</p>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
