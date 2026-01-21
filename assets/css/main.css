@@ -444,15 +444,13 @@ p:last-child {
 @media (max-width: 768px) {
 
     .about {
-        padding: var(--spacing-lg);
+        padding: var(--spacing-xxl) var(--spacing-sm);
         background-color: transparent;
     }
 
     .about-inner {
         flex-direction: column;
-        gap: var(--spacing-lg);
-        align-items: center;
-        text-align: center;
+        gap: var(--spacing-lg);        
     }
 
     .about-image {
