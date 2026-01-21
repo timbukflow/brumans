@@ -274,11 +274,11 @@
                     </div>
                     <div class="reference-item reveal-item">
                         <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-02.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">St. Gallen | Sanierung</p>
+                        <p class="reference-label">St. Gallen | Hauswartung, Sanierung</p>
                     </div>
                     <div class="reference-item reveal-item">
                         <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-03.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
-                        <p class="reference-label">St. Gallen | Sanierung</p>
+                        <p class="reference-label">St. Gallen | Hauswartung, Sanierung</p>
                     </div>
                 </div>
             </div>

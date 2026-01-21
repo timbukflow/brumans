@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #2B273A;
+    background-color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@
 /* --------------------------------------------
    CSS Variables / Design Tokens
    -------------------------------------------- */
-:root {
+    :root {
     /* Colors */
     --color-primary: #2B273A;          
     --color-background: #FFFFFF;      
@@ -113,6 +113,31 @@
     /* Transitions */
     --transition-fast: 0.4s ease-in-out;
     --transition-normal: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    :root {
+ 
+        /* Font Sizes (4 Stufen) */
+        --font-size-xs: 16px;
+        --font-size-sm: 18px;              
+        --font-size-base: 20px;            
+        --font-size-lg: 24px;              
+        --font-size-xl: 30px;            
+
+        /* Line Heights */
+        --line-height-tight: 1.1;
+        --line-height-normal: 1.25;
+        --line-height-relaxed: 1.3;
+
+        /* Spacing */
+        --spacing-xs: 4px;
+        --spacing-sm: 10px;
+        --spacing-md: 20px;
+        --spacing-lg: 30px;
+        --spacing-xl: 40px;
+        --spacing-xxl: 75px;
+    }
 }
 
 /* --------------------------------------------
@@ -183,10 +208,10 @@ p:last-child {
     padding: 0 var(--container-padding);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .container {
-        padding: 0 var(--container-padding-desktop);
-    }
+    padding: 0 15px;
+}
 }
 
 .section {
@@ -250,6 +275,13 @@ p:last-child {
     opacity: 1;
 }
 
+@media (max-width: 768px) {
+    .btn {
+        padding: 7px 16px;
+        font-size: var(--font-size-sx);
+    }
+}
+
 /* --------------------------------------------
    Header
    -------------------------------------------- */
@@ -270,7 +302,7 @@ p:last-child {
 
 .header-inner {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -305,6 +337,17 @@ p:last-child {
     gap: var(--spacing-xs);
 }
 
+@media (max-width: 768px) {
+    .header {
+        padding: var(--spacing-sm) 0 var(--spacing-sm);
+    }
+    .logo-text-suffix {
+    display: none;
+}
+}
+
+
+
 /* --------------------------------------------
    Hero Section
    -------------------------------------------- */
@@ -322,7 +365,7 @@ p:last-child {
 .hero-image {
     width: 100%;
     height: auto;
-    aspect-ratio: 1378 / 919;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: var(--radius);
 }
@@ -343,12 +386,18 @@ p:last-child {
 }
 
 @media (max-width: 768px) {
+    .hero {
+        padding-top: 85px;
+        margin-bottom: var(--spacing-lg);
+    }
     .hero-textbox {
         position: relative;
-        max-width: 100%;
-        margin-top: calc(-1 * var(--spacing-lg));
-        margin-left: var(--spacing-sm);
-        margin-right: var(--spacing-sm);
+        top: 10px;
+        right: 0;
+        padding: 30px;
+    }
+    .hero-image {
+        aspect-ratio: 4 / 5;
     }
 }
 
@@ -393,6 +442,12 @@ p:last-child {
 }
 
 @media (max-width: 768px) {
+
+    .about {
+        padding: var(--spacing-lg);
+        background-color: transparent;
+    }
+
     .about-inner {
         flex-direction: column;
         gap: var(--spacing-lg);
@@ -605,14 +660,17 @@ p:last-child {
 }
 
 @media (max-width: 768px) {
-    .footer-grid {
+    .footer {padding: var(--spacing-lg) var(--spacing-sm);}
+    .footer-grid, .footer-group {
         flex-direction: column;
         gap: var(--spacing-lg);
     }
-
-    .footer-group {
-        gap: var(--spacing-lg);
+    .footer-heading,
+    .footer-text,
+    .footer-link {
+        line-height: 1.5;
     }
+
 }
 
 /* --------------------------------------------
@@ -821,9 +879,12 @@ body.menu-open {
 }
 
 @media (max-width: 768px) {
-    .detail-card,
-    .detail-card--reverse {
+    .detail-card {
+        display: flex;
         flex-direction: column;
+    }
+    .detail-card--reverse {
+        flex-direction: column-reverse;
     }
 
     .detail-card-image,
@@ -867,6 +928,12 @@ body.menu-open {
 /* Service card without fixed min-height */
 .service-card--auto {
     min-height: auto;
+}
+
+@media (max-width: 768px) {
+    .services-grid--two-col {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* --------------------------------------------
