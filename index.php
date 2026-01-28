@@ -273,13 +273,57 @@
                         <p class="reference-label">Romanshorn | Hauswartung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-02.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-02.jpg" alt="Brumans Referenz St. Gallen - Hauswartung und Sanierung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung, Sanierung</p>
                     </div>
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-03.jpg" alt="Brumans Referenz St. Gallen - Sanierungsarbeiten" class="reference-image" width="662" height="497">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-03.jpg" alt="Brumans Referenz St. Gallen - Hauswartung und Sanierung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung, Sanierung</p>
                     </div>
+                </div>
+
+                <!-- Additional References (hidden by default) -->
+                <div class="references-grid references-grid--more" id="references-more">
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-01.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-02.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-04.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-06.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-07.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-08.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-09.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-sanierungsarbeiten-04.jpg" alt="Brumans Referenz St. Gallen - Hauswartung und Sanierung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung, Sanierung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenz-engelburg-hauswartung-sanierungsarbeiten-01.jpg" alt="Brumans Referenz Engelburg - Hauswartung und Sanierung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">Engelburg | Hauswartung, Sanierung</p>
+                    </div>
+                </div>
+
+                <div class="references-toggle">
+                    <button type="button" class="btn btn-secondary" id="references-toggle">Weitere</button>
                 </div>
             </div>
         </section>

@@ -98,14 +98,6 @@
     </script>
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash-screen">
-        <div class="splash-content">
-            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
-            <p class="splash-text">Brumans Real Estate Group GmbH</p>
-        </div>
-    </div>
-
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
@@ -141,7 +133,7 @@
                 <p class="intro-text reveal-item">
                     Sanierungs- und Renovationsarbeiten sind oft mit Koordination, Zeitaufwand und vielen Schnittstellen verbunden. Brumans nimmt Ihnen diese Arbeit ab. Wir realisieren Sanierungen, Renovationen und Innenausbauten fachgerecht, termintreu und in hoher Qualität – für Wohn- und Geschäftsliegenschaften in der gesamten Ostschweiz. Von kleinen Sanierungsarbeiten bis zu kompletten Ausbauten kümmern wir uns um Planung, Umsetzung und saubere Ausführung – alles aus einer Hand.
                 </p>
-                <a href="#kontakt" class="btn btn-primary reveal-item">Offerte anfragen</a>
+                <a href="mailto:info@brumans.ch?subject=Offerte%20Sanierung" class="btn btn-primary reveal-item">Offerte anfragen</a>
             </div>
         </section>
 

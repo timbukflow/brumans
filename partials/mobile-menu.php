@@ -13,6 +13,7 @@
             <a href="/hauswartung" class="mobile-menu-link">Hauswartung</a>
             <a href="/vermietung" class="mobile-menu-link">Vermietung</a>
             <a href="/sanierung" class="mobile-menu-link">Sanierung</a>
+            <a href="/mieter-portal" class="mobile-menu-link mobile-menu-link--button">Mieter-Portal</a>
         </nav>
     </div>
     <div class="mobile-menu-contact">

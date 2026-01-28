@@ -22,14 +22,6 @@
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash-screen">
-        <div class="splash-content">
-            <img src="/assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
-            <p class="splash-text">Brumans Real Estate Group GmbH</p>
-        </div>
-    </div>
-
     <header class="header">
         <div class="container">
             <div class="header-inner">

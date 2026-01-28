@@ -11,6 +11,8 @@
     const mobileMenu = document.getElementById('mobile-menu');
     const menuClose = document.getElementById('menu-close');
     const splashScreen = document.getElementById('splash-screen');
+    const referencesToggle = document.getElementById('references-toggle');
+    const referencesMore = document.getElementById('references-more');
 
     /**
      * Splash Screen
@@ -28,6 +30,28 @@
 
     // Initialize splash screen immediately
     initSplashScreen();
+
+    /**
+     * References Toggle (show more / show less)
+     */
+    function initReferencesToggle() {
+        if (referencesToggle && referencesMore) {
+            referencesToggle.addEventListener('click', function() {
+                const isVisible = referencesMore.classList.contains('is-visible');
+
+                if (isVisible) {
+                    referencesMore.classList.remove('is-visible');
+                    referencesToggle.textContent = 'Weitere';
+                } else {
+                    referencesMore.classList.add('is-visible');
+                    referencesToggle.textContent = 'Weniger';
+                }
+            });
+        }
+    }
+
+    // Initialize references toggle
+    initReferencesToggle();
 
     /**
      * Header scroll effect

@@ -98,14 +98,6 @@
     </script>
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash-screen">
-        <div class="splash-content">
-            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
-            <p class="splash-text">Brumans Real Estate Group GmbH</p>
-        </div>
-    </div>
-
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
@@ -141,7 +133,7 @@
                 <p class="intro-text reveal-item">
                     Eine gepflegte Liegenschaft ist die Visitenkarte jedes Eigentümers und jeder Verwaltung. Mit Brumans haben Sie einen Partner an Ihrer Seite, der sich zuverlässig um sämtliche Bereiche der Hauswartung und Liegenschaftspflege kümmert. Wir übernehmen regelmässige Reinigungen, die technische Instandhaltung, den Gartenunterhalt, den Winterdienst sowie Räumungen – individuell zugeschnitten auf Ihre Immobilie und Ihre Bedürfnisse.
                 </p>
-                <a href="#kontakt" class="btn btn-primary reveal-item">Offerte anfragen</a>
+                <a href="mailto:info@brumans.ch?subject=Offerte%20Hauswartung" class="btn btn-primary reveal-item">Offerte anfragen</a>
             </div>
         </section>
 

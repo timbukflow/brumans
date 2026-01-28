@@ -96,14 +96,6 @@
     </script>
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash-screen">
-        <div class="splash-content">
-            <img src="assets/images/logo-icon.svg" alt="Brumans Logo" class="splash-logo">
-            <p class="splash-text">Brumans Real Estate Group GmbH</p>
-        </div>
-    </div>
-
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
@@ -139,7 +131,7 @@
                 <p class="intro-text reveal-item">
                     Die Vermietung einer Liegenschaft ist oft zeitaufwendig und mit viel Koordination verbunden. Brumans nimmt Ihnen diese Arbeit ab. Wir sorgen dafür, dass Wohnungen oder Geschäftsräume schnell, professionell und zu fairen Konditionen neu vermietet werden. Von der Inseraterstellung über Besichtigungen bis zur Übergabe kümmern wir uns um alle Schritte.
                 </p>
-                <a href="#kontakt" class="btn btn-primary reveal-item">Offerte anfragen</a>
+                <a href="mailto:info@brumans.ch?subject=Offerte%20Vermietung" class="btn btn-primary reveal-item">Offerte anfragen</a>
             </div>
         </section>
 
@@ -204,7 +196,10 @@
                     <p class="cta-title">
                         Jetzt Beratungsgespräch vereinbaren und Vermietungsservice kennenlernen.
                     </p>
-                    <a href="mailto:info@brumans.ch?subject=Beratung%20Vermietung" class="btn btn-white">Offerte anfordern</a>
+                    <div class="cta-buttons">
+                        <a href="mailto:info@brumans.ch?subject=Beratung%20Vermietung" class="btn btn-white">Offerte anfordern</a>
+                        <a href="assets/downloads/brumans-anmeldeformular.pdf" download class="btn btn-white btn-secondary">Anmeldeformular</a>
+                    </div>
                 </div>
             </div>
         </section>
