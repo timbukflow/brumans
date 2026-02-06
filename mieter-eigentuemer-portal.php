@@ -108,14 +108,14 @@
                         </p>
                         <a href="mailto:info@brumans.ch?subject=Anliegen%20melden" class="btn btn-primary">Anliegen melden</a>
                     </div>
-                    
+
                     <!-- Notfall Pikettdienst -->
                     <div class="service-card reveal-item">
                         <h3 class="service-title">Notfall-Pikettdienst</h3>
                         <p class="service-text">
                             Bei dringenden Notfällen sind wir rund um die Uhr für Sie erreichbar. Unser 24/7-Pikettdienst steht Ihnen bei Wasserschäden, Heizungsausfällen oder anderen Notfällen sofort zur Verfügung.
                         </p>
-                        <a href="tel:+41793140989" class="btn btn-primary">079 314 09 89</a>
+                        <a href="tel:+41767387070" class="btn btn-primary">076 738 70 70</a>
                     </div>
                 </div>
             </div>
