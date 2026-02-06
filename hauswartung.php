@@ -218,21 +218,49 @@
                 </div>
                 <div class="references-grid">
                     <div class="reference-item reveal-item">
-                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-01.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="663" height="497">
+                        <img src="assets/images/brumans-referenzen-goldach-hauswartung-05.jpg" alt="Brumans Referenz Goldach - Professionelle Hauswartung" class="reference-image" width="663" height="497">
+                        <p class="reference-label">Goldach | Hauswartung</p>
+                    </div>
+                    <div class="reference-item reveal-item">
+                        <img src="assets/images/brumans-referenzen-romanshorn-hauswartung-03.jpg" alt="Brumans Referenz Romanshorn - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">Romanshorn | Hauswartung</p>
+                    </div>
+                    <div class="reference-item reveal-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-01.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung</p>
                     </div>
                     <div class="reference-item reveal-item">
                         <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-02.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung</p>
                     </div>
-                    <div class="reference-item reveal-item">
+                </div>
+
+                <!-- Additional References (hidden by default) -->
+                <div class="references-grid references-grid--more" id="references-more">
+                    <div class="reference-item">
                         <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-04.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung</p>
                     </div>
-                    <div class="reference-item reveal-item">
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswartung-06.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
                         <img src="assets/images/brumans-referenzen-st-gallen-hauswart-07.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
                         <p class="reference-label">St. Gallen | Hauswartung</p>
                     </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-08.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                    <div class="reference-item">
+                        <img src="assets/images/brumans-referenzen-st-gallen-hauswart-09.jpg" alt="Brumans Referenz St. Gallen - Professionelle Hauswartung" class="reference-image" width="662" height="497">
+                        <p class="reference-label">St. Gallen | Hauswartung</p>
+                    </div>
+                </div>
+
+                <div class="references-toggle">
+                    <button type="button" class="btn btn-secondary" id="references-toggle">Weitere</button>
                 </div>
             </div>
         </section>

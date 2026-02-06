@@ -3,6 +3,14 @@
 
 RewriteEngine On
 
+# 301 Redirects: Old site paths to new pages
+RewriteRule ^team/?$ / [R=301,L]
+RewriteRule ^projects/?$ / [R=301,L]
+RewriteRule ^testimonials/?$ / [R=301,L]
+RewriteRule ^about/?$ / [R=301,L]
+RewriteRule ^contact/?$ / [R=301,L]
+RewriteRule ^services/?$ /hauswartung [R=301,L]
+
 # Canonicalize .php URLs to extensionless variants
 RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
 RewriteCond %1 !^404$ [NC]
