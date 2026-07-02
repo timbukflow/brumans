@@ -70,9 +70,9 @@
                 "email": "info@brumans.ch",
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Landhausstrasse 1",
-                    "postalCode": "9053",
-                    "addressLocality": "Teufen",
+                    "streetAddress": "Böhlstrasse 20",
+                    "postalCode": "9300",
+                    "addressLocality": "Wittenbach",
                     "addressRegion": "SG",
                     "addressCountry": "CH"
                 },
@@ -110,16 +110,16 @@
                 "image": "https://brumans.ch/assets/images/og-default.jpg",
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Landhausstrasse 1",
-                    "postalCode": "9053",
-                    "addressLocality": "Teufen",
+                    "streetAddress": "Böhlstrasse 20",
+                    "postalCode": "9300",
+                    "addressLocality": "Wittenbach",
                     "addressRegion": "SG",
                     "addressCountry": "CH"
                 },
                 "geo": {
                     "@type": "GeoCoordinates",
-                    "latitude": 47.3922,
-                    "longitude": 9.3876
+                    "latitude": 47.4589,
+                    "longitude": 9.3719
                 },
                 "openingHoursSpecification": {
                     "@type": "OpeningHoursSpecification",

@@ -11,8 +11,8 @@
                 <div class="footer-column">
                     <p class="footer-heading">Adresse</p>
                     <p class="footer-text">Brumans Real Estate Group GmbH</p>
-                    <p class="footer-text">Landhausstrasse 1</p>
-                    <p class="footer-text">9053 Teufen</p>
+                    <p class="footer-text">Böhlstrasse 20</p>
+                    <p class="footer-text">9300 Wittenbach</p>
                 </div>
             </div>
             <div class="footer-group">

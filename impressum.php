@@ -47,8 +47,8 @@
                     <h2>Kontaktadresse</h2>
                     <p>
                         Brumans Real Estate Group GmbH<br>
-                        Landhausstrasse 1<br>
-                        9053 Teufen<br>
+                        Böhlstrasse 20<br>
+                        9300 Wittenbach<br>
                         Schweiz
                     </p>
                     <p>
